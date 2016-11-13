@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+body {
+  margin: 0; /* Tricky: override browser default */
+  padding: 80px;
+
+  font-family: "Roboto", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+header nav{
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+header{
+	display: inline-block;
+	font-weight: 800;
+}
+header h1{
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+header nav a{
+	font-size: 18px;
+	padding: 0 6px;
+}
+.search{
+	margin-top: 30px;
+}
+.search input {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+  width: 400px;
+}
+label{
+	display: block;
+}
+.search button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  vertical-align: bottom;
+}
+.search img{
+	height: 100%;
+}
+.trav{
+	display: inline-block; /* Tricky, this could start wrapping!  */
+  	font-size: 0;
+  	margin-bottom: 30px;
+  	border: 1px solid #DDDDDD;
+  	border-radius: 3px;
+}
+.trav-b{
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+.trav-b:hover{
+	text-decoration: underline;
+}
+.trav-d{
+	font-size: 16px;
+	padding: 8px 25px;
+	border-left: 1px solid #DDDDDD;
+  	border-right: 1px solid #DDDDDD;
+  	display: inline-block;
+}
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.search-button {
+  vertical-align: bottom;
+}
+
+.star-icon {
+  height: 100%;
+}
